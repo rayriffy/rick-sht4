@@ -1,0 +1,13 @@
+{
+  "name": "rick-sht4",
+  "description": "Auto-generated from yarn snippets",
+  "author": "Phumrapee Limpianchop <contact@rayriffy.com>",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.117",
+    "typescript": "^3.9.5"
+  }
+}
