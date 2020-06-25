@@ -3,6 +3,9 @@
   "description": "Auto-generated from yarn snippets",
   "version": "1.0.0",
   "author": "Phumrapee Limpianchop <contact@rayriffy.com>",
+  "contributors": [
+  ],
+  "license": "MIT",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
