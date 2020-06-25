@@ -1,10 +1,12 @@
 {
   "name": "rick-sht4",
   "description": "Auto-generated from yarn snippets",
+  "version": "1.0.0",
   "author": "Phumrapee Limpianchop <contact@rayriffy.com>",
   "scripts": {
     "dev": "tsc --watch",
-    "build": "tsc"
+    "build": "tsc",
+    "postbuild": "cp ./src/manifest.json ./dist"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.117",
