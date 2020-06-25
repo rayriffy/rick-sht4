@@ -1,0 +1,19 @@
+name: TypeScript checks
+
+on: ['push']
+
+jobs:
+  test:
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: 'Init: Summon NodeJS'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: 'Init: Install dependencies'
+        run: |
+          yarn install
+      - name: 'Test: TypeScript checks'
+        run: |
+          yarn build
